@@ -213,7 +213,7 @@ nav{
     transition: box-shadow .2s linear;
 }
 .product:hover{
-    box-shadow: 0 0 35px -5px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 35px -5px rgba(0, 0, 0, 0.6);
     transition: box-shadow .3s linear;
     cursor: pointer;
 }
@@ -258,13 +258,14 @@ nav{
     background-color: #fff;
     margin-top: 50px;
 }
+.see-more-button button:hover{
+    cursor: pointer;
+}
 
 /* product part style end */
 
 
 /* ------------------------- main style end ------------------------- */
-
-
 
 /* ------------------------- footer style start ------------------------- */
 .footer{
@@ -289,6 +290,9 @@ nav{
     column-gap: 25px;
     margin-top: 15px;
 }
+.footer-icons a{
+    color: #fff;
+}
 .footer-icon{
     background-color: #22213C;
     border-radius: 50px;
@@ -296,6 +300,12 @@ nav{
     padding: 8px;
 }
 /* ------------------------- footer style end ------------------------- */
+
+
+
+
+
+
 
 /* ----- ----- smartphone portrait style end ----- ----- */
 
@@ -360,8 +370,14 @@ nav{
     .footer{
         padding: 30px;
     }
+    .footer h2{
+        font-size: 20px;
+    }
     .footer p{
         font-size: 14px;
+    }
+    .footer-icon{
+        font-size: 18px;
     }
 }
 /* ----- ----- smartphone portrait style end ----- ----- */
@@ -426,7 +442,8 @@ nav{
         margin: 20px auto;
     }
     .banner-text h1{
-        font-size: 24px;
+        font-size: 26px;
+        /* font-weight: 700; */
     }
     .banner-img img{
         width: 70%;
