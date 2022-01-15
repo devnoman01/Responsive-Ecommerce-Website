@@ -230,16 +230,20 @@ nav{
 .product-title{
     font-size: 28px;
     font-weight: 600;
-    margin-top: 10px;
+    margin: 15px 0;
 }
 #price-tag{
     font-weight: 400;
     font-size: 24px;
     color: #3A3A3A;
 }
+.rating-info{
+    margin: 15px 0;
+}
 .rating-icon{
     font-size: 12px;
     color: orange;
+    
 }
 .rating-value{
     font-size: 14px;
@@ -381,45 +385,6 @@ nav{
     }
 }
 /* ----- ----- smartphone portrait style end ----- ----- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ----- ----- tablet portrait style end ----- ----- */
