@@ -34,7 +34,6 @@ header{
 
 /*----- navigation style start -----*/
 nav{
-    z-index: 2;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -114,6 +113,7 @@ nav{
     font-weight: 700;
 }
 .banner-text p{
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 700;
     margin: 25px 0px;
@@ -191,6 +191,7 @@ nav{
     width: 100%;
 }
 .product p{
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 700;
     margin-top: 5px;
@@ -229,6 +230,10 @@ nav{
 /* product part style end */
 
 
-
-
 /* ------------------------- main style end ------------------------- */
+
+
+
+
+
+/* ------------------------- table style ------------------------- */
